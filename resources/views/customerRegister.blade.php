@@ -44,7 +44,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link btn btn-white btn-round" href="/login">SIGN IN</a>
+                    <a class="nav-link btn btn-white btn-round" href="/customerlogin">SIGN IN</a>
                 </li>
             </ul>
         </div>
@@ -52,7 +52,7 @@
 </nav>
 <!-- End Navbar -->
 <div class="page-header">
-    <div class="page-header-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/login.jpg)"></div>
+    <div class="page-header-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assetsh/img/welcome_img/right_img.webp)"></div>
     <div class="container">
         <div class="col-md-12 content-center">
             <div class="card-plain">
@@ -64,7 +64,7 @@
                         <h5>Sign Up</h5>
                         <span>Register </span>
                     </div>
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" {{--  action="{{ route('customerRegister') }}"--}}>
                         @csrf
                         <input type="hidden"  name="companyid">
                         <input type="hidden"  id="companyinit" name="companyinitials">
@@ -94,17 +94,7 @@
                                 <i class="zmdi zmdi-email"></i>
                             </span>
                         </div>
-                        <div class="input-group">
-                            <input id="company" type="text" class="form-control @error('company') is-invalid @enderror" placeholder="Company Name" name="company" value="{{ old('company') }}" required autocomplete="company">
-                                @error('company')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            <span class="input-group-addon">
-                                <i class="zmdi zmdi-home"></i>
-                            </span>
-                        </div>
+
                         <div class="input-group">
                             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" placeholder="Password" name="password" required autocomplete="new-password">
 

@@ -8,7 +8,7 @@
 <meta name="author" content="Thememakker">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>:: Propertymitr RealEstate :: Sign In</title>
+    <title>:: Propertymitr RealEstate :: Customer Sign In</title>
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Custom Css -->
@@ -36,7 +36,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link btn btn-white btn-round" href="/register">SIGN UP</a>
+                    <a class="nav-link btn btn-white btn-round" href="/customerregister">SIGN UP</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +44,7 @@
 </nav>
 <!-- End Navbar -->
 <div class="page-header">
-    <div class="page-header-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/login.jpg)"></div>
+    <div class="page-header-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assetsh/img/welcome_img/right_img.webp)"></div>
     <div class="container">
         <div class="col-md-12 content-center">
             <div class="card-plain">
@@ -56,7 +56,7 @@
                         <h5>Log in</h5>
                     </div>
                     <div class="content">
-                        <form method="POST" action="{{ route('login') }}">
+                        <form method="POST"{{--  action="{{ route('customerLogin') }}"--}}>
                          @csrf
                                 <div class="input-group">
                                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" placeholder="Email" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>

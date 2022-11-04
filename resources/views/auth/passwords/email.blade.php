@@ -47,8 +47,8 @@
         <div class="col-md-12 content-center">
             <div class="card-plain">
                     <div class="header">
-                        <div class="logo-container">
-                            <img src="../assets/images/logo.svg" alt="">
+                        <div  style="width:200px" class="logo-container">
+                            <img src="../assetsh/img/welcome_img/logo.png" alt="">
                         </div>
                         <h5>Forgot Password?</h5>
                         <span>Enter your e-mail address below to reset your password.</span>
