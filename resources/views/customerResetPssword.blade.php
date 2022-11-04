@@ -35,7 +35,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link btn btn-white btn-round" href="/login">SIGN IN</a>
+                    <a class="nav-link btn btn-white btn-round" href="/customerlogin">SIGN IN</a>
                 </li>
             </ul>
         </div>

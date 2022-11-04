@@ -87,7 +87,7 @@
                             <div class="footer text-center">
                                 <button type="submit"class="main_btn ">SIGN IN</button>
 
-                                <h5><a href="/password/reset" class="link">Forgot Password?</a></h5>
+                                <h5><a href="/customerResetPssword" class="link">Forgot Password?</a></h5>
                             </div>
                         </form>
                     </div>
