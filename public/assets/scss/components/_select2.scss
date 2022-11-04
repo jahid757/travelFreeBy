@@ -1,0 +1,46 @@
+﻿.select2-container{
+    .select2-choice{
+        border: none;
+        background-image: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+        &:focus,
+        &:hover,
+        &:active{
+            box-shadow: none !important;
+            border: 0 !important;
+        }
+        .select2-arrow{
+            border-left:none;
+            background-image: none;
+            background: transparent;
+        }
+    }
+    &.select2-dropdown-open{
+        .select2-choice{
+            background: transparent;
+            box-shadow: none !important;
+        }
+    }
+}
+.select2-drop{
+    border-radius: 0;
+    border: 0 !important;
+}
+.select2-container-multi{
+    .select2-choices{
+        border: 0 !important;
+        padding: 0;
+        margin: 0;
+        background-image: none;
+        box-shadow: none !important;
+        &:focus,
+        &:hover,
+        &:active{
+            box-shadow: none !important;
+            border: none;
+            border: 0 !important;
+        }
+    }
+}

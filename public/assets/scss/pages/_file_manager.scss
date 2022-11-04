@@ -1,0 +1,79 @@
+.file_manager{
+
+    .file{
+        @extend .padding-0;
+        position: relative;
+        overflow: hidden;
+        border-radius: .1875rem; 
+
+        &:hover{
+            @include transition(all .3s);
+            box-shadow: 0 0 3px rgba($dark,0.1), 0 6px 20px rgba($dark,0.2);
+        }
+
+        .image, .icon{
+            height: 150px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: top;
+        }
+
+        .hover{
+            @include transition(all .3s);
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            display: none;
+        }
+
+        a{
+            &:hover{                
+                .hover{
+                    @include transition(all .3s);
+                    display: block;
+                }
+            }
+        }
+
+        .icon {
+            padding: 15px 10px;
+            display: table;
+            width: 100%;
+            text-align: center;
+
+            i { 
+                @extend .font-30;      
+                color: $grey-600;         
+                display: table-cell;
+                vertical-align: middle;                
+            }
+        }
+
+        .file-name {
+            padding: 10px;
+            border-top:1px solid $blue-grey-50;
+
+            small{
+                @extend .displayblock;
+
+                .date{
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
+@include max-screen($break-medium) {    
+    .file_manager{
+        
+        .nav-tabs{
+            padding-left: 0;
+            padding-right: 0;
+    
+            .nav-item{
+                display: inline-block;
+            }
+        }
+    }
+}
