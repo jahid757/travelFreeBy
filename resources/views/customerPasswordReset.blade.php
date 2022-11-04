@@ -14,6 +14,7 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
     <link rel="stylesheet" href="/assets/css/authentication.css">
     <link rel="stylesheet" href="/assets/css/color_skins.css">
 </head>
@@ -58,7 +59,7 @@
                         <form method="POST" action="{{ route('password.update') }}">
                             @csrf
 
-                         <input type="hidden" name="token" value="{{ $token }}">
+                         <input type="hidden" name="token" placeholder="Token" value="{{-- $token --}}">
 
                                 <div class="input-group">
                                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus>
@@ -93,7 +94,7 @@
                                 </div>
 
                             <div class="footer text-center">
-                                <button type="submit"class="btn btn-primary btn-round btn-lg btn-block ">Submit</button>
+                                <button type="submit"class="main_btn">Submit</button>
                             </div>
                         </form>
                     </div>
