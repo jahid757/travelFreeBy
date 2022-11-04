@@ -14,6 +14,7 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/authentication.css">
     <link rel="stylesheet" href="assets/css/color_skins.css">
 </head>
@@ -84,7 +85,7 @@
                                 </div>
                             </div>
                             <div class="footer text-center">
-                                <button type="submit"class="btn btn-primary btn-round btn-lg btn-block ">SIGN IN</button>
+                                <button type="submit"class="main_btn ">SIGN IN</button>
 
                                 <h5><a href="/password/reset" class="link">Forgot Password?</a></h5>
                             </div>

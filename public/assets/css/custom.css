@@ -2,6 +2,20 @@ html{
     scroll-behavior: smooth;
 }
 a{text-decoration: none;}
+.main_btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(234 156 0);
+    border: none;
+    padding: 10px 35px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
 .card-content{
     background-color:#fffbdf
 }

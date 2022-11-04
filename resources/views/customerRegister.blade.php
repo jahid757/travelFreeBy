@@ -121,7 +121,7 @@
                             </label>
                     </div>
                     <div class="footer text-center">
-                        <button type="submit" onclick="getInputValue();" class="btn btn-primary btn-round btn-lg btn-block waves-effect waves-light">SIGN UP
+                        <button type="submit" onclick="getInputValue();" class="main_btn">SIGN UP
                         </button>
                     </div>
                 </form>
