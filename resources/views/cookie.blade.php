@@ -31,29 +31,29 @@
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                   <li><a  href="/">Home</a></li>
-                  <li onclick="menuToggle('toggle_menu')"  class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">take free quetation </a>
+                  <li onclick="menuToggle('toggle_menu')"  class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">take free Quotation </a>
                     <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                     <ul id="toggle_menu" class="toggle_menu position-absolute">
-                        <li><a href="/user/leads/flights/create">flights</a></li>
-                        <li><a href="/user/leads/hotels/create">hotels</a></li>
-                        <li><a href="/user/leads/packages/create">packages</a></li>
+                        <li><a href="/leadsFlightOut">flights</a></li>
+                        <li><a href="/leadsHotelOut">hotels</a></li>
+                        <li><a href="/leadsPackagesOut">packages</a></li>
                     </ul>
                     </li>
 
-                    <li onclick="menuToggle('toggle_menu_my_ques')" class="position-relative toggle_link"><a class="active d-inline-block" href="javascript:void(0)">my quetation </a>
+                    <li onclick="menuToggle('toggle_menu_my_ques')" class="position-relative toggle_link"><a class="active d-inline-block" href="javascript:void(0)">my Quotation </a>
                         <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                         <ul id="toggle_menu_my_ques" class="toggle_menu position-absolute">
-                            <li><a href="/user/quetation/flights/create">flights</a></li>
-                            <li><a href="/user/quetation/hotels/create">hotels</a></li>
-                            <li><a href="/user/quetation/packages/create">packages</a></li>
+                            <li><a href="/myQuotationFlight">flights</a></li>
+                            <li><a href="/myQuotationHotel">hotels</a></li>
+                            <li><a href="/myQuotationPackages">packages</a></li>
                         </ul>
                         </li>
                     <li onclick="menuToggle('toggle_menu_bookings')" class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">my bookings </a>
                         <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                         <ul id="toggle_menu_bookings" class="toggle_menu position-absolute">
-                            <li><a href="/user/bookings/flights/create">flights</a></li>
-                            <li><a href="/user/bookings/hotels/create">hotels</a></li>
-                            <li><a href="/user/bookings/packages/create">packages</a></li>
+                            <li><a href="/myBookingflight">flights</a></li>
+                            <li><a href="/myBookinghotel">hotels</a></li>
+                            <li><a href="/myBookingPackages">packages</a></li>
                         </ul>
                         </li>
                   <li class=""><a href="/login">Log In</a></li>
