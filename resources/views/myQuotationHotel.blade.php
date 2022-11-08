@@ -31,7 +31,6 @@
                   <img src="assetsh/img/welcome_img/logo.webp" alt="" />
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                  <li><a  href="/">Home</a></li>
                   <li onclick="menuToggle('toggle_menu')"  class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">take free Quotation </a>
                     <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                     <ul id="toggle_menu" class="toggle_menu position-absolute">
@@ -57,8 +56,8 @@
                             <li><a href="/myBookingPackages">packages</a></li>
                         </ul>
                         </li>
-                  <li class=""><a href="/login">Log In</a></li>
-                  <li class=""><a href="/register">Sign Up</a></li>
+                        <li class=""><a href="/customerLogin">Log In</a></li>
+                        <li class=""><a href="/customerRegister">Sign Up</a></li>
                 </ul>
                 <i onclick="menuToggle('nav-mobile')" class="fa fa-bars"></i>
               </div>
@@ -70,11 +69,11 @@
 
     <section class="content container">
         <div class="search_form">
-            <h2 class="heading_text"><strong>Quetation </strong> Flight Information</h2>
+            <h2 class="heading_text"> My Quotation</h2>
 
             <form action="" method="post">
-                <label for="id">ID</label>
-                <input id="id" type="text" placeholder="ID">
+                <label for="id">Quotation ID</label>
+                <input id="id" type="text" placeholder="Quotation ID">
                 <label for="lastName">Last Name</label>
                 <input id="lastName" type="text" placeholder="Last Name">
                 <button class="main_btn">Search</button>

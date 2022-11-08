@@ -51,7 +51,6 @@
                   <img src="assetsh/img/welcome_img/logo.webp" alt="" />
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                  <li><a  href="/">Home</a></li>
                   <li onclick="menuToggle('toggle_menu')"  class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">take free Quotation </a>
                     <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                     <ul id="toggle_menu" class="toggle_menu position-absolute">
@@ -77,8 +76,8 @@
                             <li><a href="/myBookingPackages">packages</a></li>
                         </ul>
                         </li>
-                  <li class=""><a href="/login">Log In</a></li>
-                  <li class=""><a href="/register">Sign Up</a></li>
+                  <li class=""><a href="/customerLogin">Log In</a></li>
+                  <li class=""><a href="/customerRegister">Sign Up</a></li>
                 </ul>
                 <i onclick="menuToggle('nav-mobile')" class="fa fa-bars"></i>
               </div>
@@ -94,7 +93,7 @@
             <div class="body">
                 <form class="form-horizontal" method="Post"  files="true">
                     <div class="header">
-                        <h2><strong>Lead</strong> Flight Information  </h2>
+                        <h2> Flight Information  </h2>
 
                     </div>
                     <div class="row">

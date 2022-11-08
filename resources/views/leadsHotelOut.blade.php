@@ -73,8 +73,8 @@
                             <li><a href="/myBookingPackages">packages</a></li>
                         </ul>
                         </li>
-                  <li class=""><a href="/login">Log In</a></li>
-                  <li class=""><a href="/register">Sign Up</a></li>
+                        <li class=""><a href="/customerLogin">Log In</a></li>
+                        <li class=""><a href="/customerRegister">Sign Up</a></li>
                 </ul>
                 <i onclick="menuToggle('nav-mobile')" class="fa fa-bars"></i>
               </div>
@@ -91,7 +91,7 @@
                 <form class="form-horizontal" method="Post" files="true">
 
                     <div class="header">
-                        <h2><strong>Lead</strong> Hotel Information  </h2>
+                        <h2> Hotel Information  </h2>
 
                     </div>
 
@@ -123,8 +123,8 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label class="d-flex align-items-center" for="city"><span class="red ml-3">*</span> <span>City / Hotel Name</span></label>
-                                <input onchange="checkCity()" id="city" type="text" name="city" class="form-control @error('city') is-invalid @enderror" placeholder="Enter City/Hotel Name" required autocomplete="city" value="{{ old('city') }}">
+                                <label class="d-flex align-items-center" for="city"><span class="red ml-3">*</span> <span>City </span></label>
+                                <input onchange="checkCity()" id="city" type="text" name="city" class="form-control @error('city') is-invalid @enderror" placeholder="Enter City Name" required autocomplete="city" value="{{ old('city') }}">
                                 @error('city')
                                 <span class="invalid-feedback" role="alert" id="fromError">
                                     <strong>{{ $message }}</strong>
@@ -132,6 +132,9 @@
                                 @enderror
                             </div>
                         </div>
+
+                        
+
 
                         <div class="col-sm-6">
                             <div class="form-group">
@@ -200,10 +203,10 @@
 
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label class="d-flex align-items-center" for="depart"><span class="red ml-3">*</span> <span>Number of Nights</span></label>
-                                <input id="nights" type="number" name="nights" class="form-control @error('nights') is-invalid @enderror" placeholder="Number of Nights" required autocomplete="rooms" value="{{ old('nights') }}">
-                                @error('nights')
-                                <span class="invalid-feedback" role="alert" id="roomsError">
+                                <label class="d-flex align-items-center" for="city">Preffered Hotel (If any) </span></label>
+                                <input onchange="checkCity()" id="city" type="text" name="city" class="form-control @error('city') is-invalid @enderror" placeholder="Enter Preffered Hotel" required autocomplete="city" value="{{ old('city') }}">
+                                @error('city')
+                                <span class="invalid-feedback" role="alert" id="fromError">
                                     <strong>{{ $message }}</strong>
                                 </span>
                                 @enderror

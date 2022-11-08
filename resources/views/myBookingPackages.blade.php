@@ -57,8 +57,8 @@
                             <li><a href="/myBookingPackages">packages</a></li>
                         </ul>
                         </li>
-                  <li class=""><a href="/login">Log In</a></li>
-                  <li class=""><a href="/register">Sign Up</a></li>
+                        <li class=""><a href="/customerLogin">Log In</a></li>
+                        <li class=""><a href="/customerRegister">Sign Up</a></li>
                 </ul>
                 <i onclick="menuToggle('nav-mobile')" class="fa fa-bars"></i>
               </div>
@@ -70,11 +70,11 @@
 
     <section class="content container">
         <div class="search_form">
-            <h2 class="heading_text"><strong>Quetation </strong> Flight Information</h2>
+          <h2 class="heading_text"> My Booking</h2>
 
             <form action="" method="post">
-                <label for="id">ID</label>
-                <input id="id" type="text" placeholder="ID">
+                <label for="id">Booking ID</label>
+                <input id="id" type="text" placeholder="Booking ID">
                 <label for="lastName">Last Name</label>
                 <input id="lastName" type="text" placeholder="Last Name">
                 <button class="main_btn">Search</button>

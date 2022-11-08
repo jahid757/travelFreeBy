@@ -32,8 +32,7 @@
                   <img src="assetsh/img/welcome_img/logo.webp" alt="" />
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                  <li><a  href="/">Home</a></li>
-                  <li onclick="menuToggle('toggle_menu')"  class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">take free Quotation </a>
+                  <li onclick="menuToggle('toggle_menu')"  class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">Free Quotation </a>
                     <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                     <ul id="toggle_menu" class="toggle_menu position-absolute">
                         <li><a href="/leadsFlightOut">flights</a></li>
@@ -42,7 +41,7 @@
                     </ul>
                     </li>
 
-                    <li onclick="menuToggle('toggle_menu_my_ques')" class="position-relative toggle_link"><a class="active d-inline-block" href="javascript:void(0)">my Quotation </a>
+                    <li onclick="menuToggle('toggle_menu_my_ques')" class="position-relative toggle_link"><a class="active d-inline-block" href="javascript:void(0)">my Quotations </a>
                         <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                         <ul id="toggle_menu_my_ques" class="toggle_menu position-absolute">
                             <li><a href="/myQuotationFlight">flights</a></li>
@@ -58,8 +57,8 @@
                             <li><a href="/myBookingPackages">packages</a></li>
                         </ul>
                         </li>
-                  <li class=""><a href="/login">Log In</a></li>
-                  <li class=""><a href="/register">Sign Up</a></li>
+                  <li class=""><a href="/customerLogin">Log In</a></li>
+                  <li class=""><a href="/customerRegister">Sign Up</a></li>
                 </ul>
                 <i onclick="menuToggle('nav-mobile')" class="fa fa-bars"></i>
               </div>
