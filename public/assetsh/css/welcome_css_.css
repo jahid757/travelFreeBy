@@ -423,7 +423,8 @@ footer .bottom_part ul li a i{
 
 /* head title */
 .content {
-  margin-top: 120px;
+  margin:0 !important;
+  margin-top: 120px !important;
 }
 .head_title h2 {
   color: #ea9c00;
@@ -779,6 +780,7 @@ footer .bottom_part ul li a i{
 }
 .search_form label{
     color: #5e5b5e;
+    /* margin-bottom: 5px; */
 }
 
 

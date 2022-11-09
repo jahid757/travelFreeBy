@@ -133,7 +133,7 @@
                             </div>
                         </div>
 
-                        
+
 
 
                         <div class="col-sm-6">
@@ -265,8 +265,8 @@
             </div>
 
             <div class="col-sm-12 mt-4">
-                <button type="submit" class="btn btn-primary btn-round">Submit</button>
-                <a href="{{ route('users.index') }}" class="btn btn-primary btn-round">Cancel</a>
+                <button type="submit" class="main_btn">Submit</button>
+                <a href="{{ route('users.index') }}" class="main_btn">Cancel</a>
             </div>
         </div>
     </div>

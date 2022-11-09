@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color: #fff;
+}
 a{text-decoration: none;}
 .main_btn{
     color: rgb(255, 255, 255);
@@ -15,6 +18,14 @@ a{text-decoration: none;}
     letter-spacing: 1px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+    transition: .3s;
+}
+.main_btn:hover{
+    background-color: rgb(214, 143, 1);
+    color: #fff;
+}
+.table>:not(:last-child)>:last-child>*{
+    border-bottom-color: #dee2e6;
 }
 .card-content{
     background-color:#fffbdf

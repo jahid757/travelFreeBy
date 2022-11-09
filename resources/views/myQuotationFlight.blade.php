@@ -19,6 +19,24 @@
     <script src="https://kit.fontawesome.com/4b5d72e539.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assetsh/css/welcome_css_.css" />
+    <script src="https://kit.fontawesome.com/4b5d72e539.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4b5d72e539.js" crossorigin="anonymous"></script>
+    <link href="{{URL::asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet"/>
+    <link href="{{URL::asset('assets/plugins/fancyuploder/fancy_fileupload.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('assets/plugins/fileupload/css/fileupload.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/jquery-datatable/dataTables.bootstrap4.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/charts-c3/plugin.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/jvectormap/jquery-jvectormap-2.0.3.min.css')}}"/>
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/dropzone/dropzone.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/bootstrap-select/css/bootstrap-select.css')}}"/>
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/select2/select2.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/ijabocrop/ijaboCropTool.min.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('dist/image-uploader.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('assets/css/main.css')}}">
+<link rel="stylesheet" href="{{URL::asset('assets/css/custom.css')}}">
+
+<link rel="stylesheet" href="{{URL::asset('assets/css/color_skins.css')}}">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
   <body>
     <header>
@@ -31,6 +49,7 @@
                   <img src="assetsh/img/welcome_img/logo.webp" alt="" />
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a  href="/">Home</a></li>
                   <li onclick="menuToggle('toggle_menu')"  class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">take free Quotation </a>
                     <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                     <ul id="toggle_menu" class="toggle_menu position-absolute">
@@ -66,10 +85,10 @@
       </header>
 
     <!-- travel section -->
-
-    <section class="content container">
+    <div class="content"></div>
+    <section class="container">
         <div class="search_form">
-            <h2 class="heading_text"> My Quotation</h2>
+          <h2 class="heading_text"> My Quotation</h2>
 
             <form action="" method="post">
                 <label for="id">Quotation ID</label>
@@ -81,10 +100,62 @@
         </div>
 
         <div class="result mb-5">
-            <h2 class="heading_text"><strong>Result </strong> Information</h2>
+            {{-- <h2 class="heading_text"><strong>Result </strong> Information</h2> --}}
 
             <div class="result_info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque omnis cumque laboriosam laudantium quae accusantium velit laborum explicabo ex.</p>
+
+                <div class="row clearfix">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2 class="heading_text"><strong>Result </strong> Information</h2>
+                            </div>
+                            <div class="body">
+                                <table class="table-responsive table table-bordered table-striped table-hover dataTable js-exportable">
+                                    <thead>
+                                        <tr>
+                                            <th>Lead Status</th>
+                                            <th>Trip Type</th>
+                                            <th>Client Name</th>
+                                            <th>User</th>
+                                            <th>From</th>
+                                            <th>To</th>
+                                            <th>Depart Date</th>
+                                            <th>Return Date</th>
+                                            <th>Number of Adults</th>
+                                            <th>Number of Kids</th>
+                                            <th>Number of Infants</th>
+                                            <th>Flight Class</th>
+                                            <th>Preference</th>
+                                            <th>Remarks</th>
+                                        </tr>
+                                    </thead>
+                                    {{-- need to change tbody laravel code --}}
+                                    <tbody>
+                                        <tr id="tr_">
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

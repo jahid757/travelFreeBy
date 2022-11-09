@@ -19,6 +19,24 @@
     <script src="https://kit.fontawesome.com/4b5d72e539.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assetsh/css/welcome_css_.css" />
+    <script src="https://kit.fontawesome.com/4b5d72e539.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4b5d72e539.js" crossorigin="anonymous"></script>
+    <link href="{{URL::asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet"/>
+    <link href="{{URL::asset('assets/plugins/fancyuploder/fancy_fileupload.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('assets/plugins/fileupload/css/fileupload.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/jquery-datatable/dataTables.bootstrap4.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/charts-c3/plugin.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/jvectormap/jquery-jvectormap-2.0.3.min.css')}}"/>
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/dropzone/dropzone.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/bootstrap-select/css/bootstrap-select.css')}}"/>
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/select2/select2.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/ijabocrop/ijaboCropTool.min.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('dist/image-uploader.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('assets/css/main.css')}}">
+<link rel="stylesheet" href="{{URL::asset('assets/css/custom.css')}}">
+
+<link rel="stylesheet" href="{{URL::asset('assets/css/color_skins.css')}}">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
   <body>
     <header>
@@ -66,8 +84,8 @@
       </header>
 
     <!-- travel section -->
-
-    <section class="content container">
+<div class="content"></div>
+    <section class=" container">
         <div class="search_form">
             <h2 class="heading_text"> My Quotation</h2>
 
@@ -81,10 +99,69 @@
         </div>
 
         <div class="result mb-5">
-            <h2 class="heading_text"><strong>Result </strong> Information</h2>
 
             <div class="result_info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque omnis cumque laboriosam laudantium quae accusantium velit laborum explicabo ex.</p>
+
+                <div class="row clearfix">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2 class="heading_text"><strong>Result </strong> Information</h2>
+                            </div>
+                            <div class="body">
+                                <table class="table-responsive table table-bordered table-striped table-hover dataTable js-exportable">
+                                    <thead>
+                                        <tr>
+                                            <th>Client Name</th>
+                                    <th>User</th>
+                                    <th>City/Hotel Name</th>
+                                    <th>Number of Rooms</th>
+                                    <th>Check In</th>
+                                    <th>Check Out</th>
+                                    <th>Number of Adults</th>
+                                    <th>Number of Kids</th>
+                                    <th>Kids Age (1)</th>
+                                    <th>Kids Age (2)</th>
+                                    <th>Kids Age (3)</th>
+                                    <th>Kids Age (4)</th>
+                                    <th>Kids Age (5)</th>
+                                    <th>Kids Age (6)</th>
+                                    <th>Bed Configuration</th>
+                                    <th>Rating</th>
+                                    <th>Lead Status</th>
+                                    <th>Remarks</th>
+                                        </tr>
+                                    </thead>
+                                    {{-- need to change tbody laravel code --}}
+                                    <tbody>
+                                        <tr id="tr_">
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
