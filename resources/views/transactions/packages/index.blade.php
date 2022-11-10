@@ -55,8 +55,6 @@
                                     <th>Upload Hotel Voucher</th>
                                     <th>Upload Ticket</th>
                                     <th>Total sale value</th>
-
-
                                     <th> Invoice</th>
                                     <th>Total Payment Rechived</th>
                                     <th>Payment Rechived Date</th>

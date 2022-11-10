@@ -92,6 +92,15 @@
                     <h2> Packages Information  </h2>
 
                 </div>
+                <div>
+                    <div class="col-sm-6 mb-3">
+                        <label class="d-flex align-items-center" for=""><span class="red">*</span> <span>Flights in Label</span></label>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-2 d-flex align-items-center"><input onchange="flightLabelCheck(this.value)" class="mx-1" type="radio" name="travel" value="needed" checked="checked" id="needed"><label for="needed" class="mb-0">Needed</label></div>
+                            <div class=" d-flex align-items-center"><input onchange="flightLabelCheck(this.value)" class="mx-1"  type="radio" value="notNeeded" name="travel" id="notNeeded"><label for="notNeeded" class="mb-0">Not needed</label></div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label><span class="red ml-3">*</span><span>Enter Your Name</span></label>
@@ -365,6 +374,7 @@
 
     <script src="assetsh/js/welcome.js"></script>
     <script src="{{URL::asset('assets/js/leads.js')}}"></script>
+<script src="{{URL::asset('assets/js/custom.js')}}"></script>
 </body>
 
 </html>

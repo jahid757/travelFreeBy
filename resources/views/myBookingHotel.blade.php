@@ -19,6 +19,24 @@
     <script src="https://kit.fontawesome.com/4b5d72e539.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assetsh/css/welcome_css_.css" />
+    <script src="https://kit.fontawesome.com/4b5d72e539.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4b5d72e539.js" crossorigin="anonymous"></script>
+    <link href="{{URL::asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet"/>
+    <link href="{{URL::asset('assets/plugins/fancyuploder/fancy_fileupload.css')}}" rel="stylesheet" />
+    <link href="{{URL::asset('assets/plugins/fileupload/css/fileupload.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/jquery-datatable/dataTables.bootstrap4.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/charts-c3/plugin.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/jvectormap/jquery-jvectormap-2.0.3.min.css')}}"/>
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/dropzone/dropzone.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/bootstrap-select/css/bootstrap-select.css')}}"/>
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/select2/select2.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('assets/plugins/ijabocrop/ijaboCropTool.min.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('dist/image-uploader.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('assets/css/main.css')}}">
+<link rel="stylesheet" href="{{URL::asset('assets/css/custom.css')}}">
+
+<link rel="stylesheet" href="{{URL::asset('assets/css/color_skins.css')}}">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
   <body>
     <header>
@@ -67,8 +85,8 @@
       </header>
 
     <!-- travel section -->
-
-    <section class="content container">
+    <div class="content"></div>
+    <section class="container">
         <div class="search_form">
           <h2 class="heading_text"> My Booking</h2>
 
@@ -77,15 +95,96 @@
                 <input id="id" type="text" placeholder="Booking ID">
                 <label for="lastName">Last Name</label>
                 <input id="lastName" type="text" placeholder="Last Name">
+                <p class="login_alert"><span class="red red_dot_middle">*</span><a href="/customerLogin">Login</a> for better experiance</p>
                 <button class="main_btn">Search</button>
             </form>
         </div>
 
         <div class="result mb-5">
-            <h2 class="heading_text"><strong>Result </strong> Information</h2>
+            {{-- <h2 class="heading_text"><strong>Result </strong> Information</h2> --}}
 
             <div class="result_info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque omnis cumque laboriosam laudantium quae accusantium velit laborum explicabo ex.</p>
+
+                <div class="row clearfix">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2 class="heading_text"><strong>Result </strong> Information</h2>
+                            </div>
+                            <div class="body">
+                                <table class="table-responsive table table-bordered table-striped table-hover dataTable js-exportable">
+                                    <thead>
+                                        <tr>
+                                            <th>Passenger Name</th>
+                                            <th>User</th>
+                                            <th>Hotel Name</th>
+                                            <th>City Name</th>
+                                            <th>Check in Date</th>
+                                            <th>Check out Date</th>
+                                            <th>Selling Price per night</th>
+                                            <th>Number of Rooms</th>
+                                            <th>Room Price (1)</th>
+                                            <th>Room Price (2)</th>
+                                            <th>Room Price (3)</th>
+                                            <th>Room Price (4)</th>
+                                            <th>Room Price (5)</th>
+                                            <th>Room Price (6)</th>
+                                            <th>Plan Type</th>
+                                            <th>Total Night</th>
+                                            <th>Hotel Vouchered</th>
+                                            <th>Portal Booked</th>
+                                            <th>Last date to issue</th>
+                                            <th>Hotel Voucher (file)</th>
+                                            <th>Total sale value</th>
+                                            <th>Invoice</th>
+                                            <th>Total Payment Rechived</th>
+                                            <th>Payment Rechived Date</th>
+                                            <th>Balance Payment</th>
+                                            <th>Payment Getway Name</th>
+                                            <th>Ops Remarks</th>
+                                            <th>Accounts Remarks</th>
+                                        </tr>
+                                    </thead>
+                                    {{-- need to change tbody laravel code --}}
+                                    <tbody>
+                                        <tr id="tr_">
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

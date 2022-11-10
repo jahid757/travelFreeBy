@@ -95,6 +95,7 @@
                 <input id="id" type="text" placeholder="Booking ID">
                 <label for="lastName">Last Name</label>
                 <input id="lastName" type="text" placeholder="Last Name">
+                <p class="login_alert"><span class="red red_dot_middle">*</span><a href="/customerLogin">Login</a> for better experiance</p>
                 <button class="main_btn">Search</button>
             </form>
         </div>
@@ -114,25 +115,47 @@
                                 <table class="table-responsive table table-bordered table-striped table-hover dataTable js-exportable">
                                     <thead>
                                         <tr>
-                                            <th>Lead Status</th>
                                             <th>Trip Type</th>
-                                            <th>Client Name</th>
+                                            <th>Passenger Name</th>
                                             <th>User</th>
                                             <th>From</th>
                                             <th>To</th>
                                             <th>Depart Date</th>
                                             <th>Return Date</th>
+                                            <th>Portal Booked</th>
+                                            <th>Ticket</th>
+                                            <th>Last date to issue</th>
                                             <th>Number of Adults</th>
                                             <th>Number of Kids</th>
-                                            <th>Number of Infants</th>
-                                            <th>Flight Class</th>
-                                            <th>Preference</th>
+                                            <th>Infant</th>
+                                            <th>Portal / GDS PNR</th>
+                                            <th>Adult Rate</th>
+                                            <th>Kids Rate</th>
+                                            <th>Infant Rate</th>
+                                            <th>Grand Total</th>
+                                            <th>E-ticket</th>
+                                            <th>Invoice</th>
+                                            <th>Total Payment Rechived</th>
+                                            <th>Payment Rechived Date</th>
+                                            <th>Balance Payment</th>
+                                            <th>Form of Payment</th>
                                             <th>Remarks</th>
                                         </tr>
                                     </thead>
                                     {{-- need to change tbody laravel code --}}
                                     <tbody>
                                         <tr id="tr_">
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                             <td></td>
                                             <td></td>
                                             <td></td>

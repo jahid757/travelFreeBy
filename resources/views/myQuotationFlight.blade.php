@@ -95,6 +95,7 @@
                 <input id="id" type="text" placeholder="Quotation ID">
                 <label for="lastName">Last Name</label>
                 <input id="lastName" type="text" placeholder="Last Name">
+                <p class="login_alert"><span class="red red_dot_middle">*</span><a href="/customerLogin">Login</a> for better experiance</p>
                 <button class="main_btn">Search</button>
             </form>
         </div>
