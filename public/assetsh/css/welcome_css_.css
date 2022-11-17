@@ -783,18 +783,86 @@ footer .bottom_part ul li a i{
     /* margin-bottom: 5px; */
 }
 
+.visa_docs{
+    border:1px solid #ddd;
+    margin-bottom: 40px;
+}
+.top_navigation_menu{
+    border-bottom: 1px solid #ddd;
+}
+.top_navigation_menu button{
+    outline: none;
+    border: none;
+    /* margin: 0 10px; */
+    background-color: transparent;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border-bottom:2px solid transparent;
+    transition: .3s;
+}
+.top_navigation_menu button:hover,.top_navigation_menu button.active{
+    border-bottom: 2px solid #ea9c00;
+}
 
+.default-font *{
+    font-family: 'Montserrat';
+}
+.default-font p{
+    font-family: arial;
+}
+.visa-requirement  h5.heading{
+    font-size: 17px;
+    color: #777777;
+    margin-bottom: 15px;
+}
+.visa-requirement .icon{
+    margin-right: 10px;
+}
+.visa-requirement .icon i{
+    font-size: 35px;
+    color:#27ae79;
+    opacity:.5;
+}
+.visa-requirement h5{
+    font-size: 17px;
+    color: #777777;
+}
+.visa-requirement .note{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.visa-requirement .note ol li{
+    display: list-item;
+    list-style: disc;
+}
 
+.important{
+    color: #6e1225;
+}
+.single_doc_head{
+    cursor: pointer;
+}
+#touristVisaDoc,#allDoc,#businessVisaDoc,#visitVisaDoc{
+    display: none;
+}
+#touristVisaDoc.active,#allDoc.active,#businessVisaDoc.active,#visitVisaDoc.active{
+    display:block;
+}
 
-
-
-
-
-
-
-
-
-
+.spinner{
+    position: fixed;
+    width:100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    /* opacity: .7; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.spinner.active{
+    display: flex;
+}
 
 
 
