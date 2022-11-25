@@ -178,7 +178,7 @@
                     --}}
 
                     <div id="allDoc" class="default-font visa-requirement">
-                        <h3 class="red">doc File is not ready</h3>
+                        {{-- <h3 class="red">doc File is not ready</h3> --}}
                     </div>
 
                     <div

@@ -43,14 +43,9 @@ function expandVisaDoc(id) {
     });
 }
 
-function renderVisaMenu(id,id2) {
-    spinner()
-    const navIdArray = [
-        'visitNav',
-        'businessNav',
-        'touristNav',
-        'allNav'
-    ]
+function renderVisaMenu(id, id2) {
+    spinner();
+    const navIdArray = ["visitNav", "businessNav", "touristNav", "allNav"];
     const arrayOfId = [
         "businessVisaDoc",
         "visitVisaDoc",
@@ -63,7 +58,12 @@ function renderVisaMenu(id,id2) {
     }
     for (let i = 0; i < arrayOfId.length; i++) {
         const itemId = document.getElementById(arrayOfId[i]);
-        itemId.classList.remove("active");
+        if (id === "allDoc") {
+            itemId.classList.add("active");
+            // console.log('active this');
+        } else {
+            itemId.classList.remove("active");
+        }
     }
     const activeItem2 = document.getElementById(id2);
     activeItem2.classList.add("active");
@@ -71,8 +71,8 @@ function renderVisaMenu(id,id2) {
     activeItem.classList.add("active");
 }
 
-function spinner(){
-    const id = document.getElementById('spinner');
+function spinner() {
+    const id = document.getElementById("spinner");
     id.classList.add("active");
     setTimeout(() => {
         id.classList.remove("active");
