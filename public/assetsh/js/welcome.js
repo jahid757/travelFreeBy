@@ -78,3 +78,4 @@ function spinner() {
         id.classList.remove("active");
     }, 500);
 }
+

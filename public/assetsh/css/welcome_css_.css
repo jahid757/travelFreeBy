@@ -179,19 +179,19 @@ p {
 .travel_management h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 31px;
   color: #c98600;
   margin-bottom: 20px;
 }
 .travel_management .single_content p {
   color: rgb(27, 27, 27);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .travel_management .single_content p.title {
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 24px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 4px;
 }
 /* mail section */
 .mail_section h2 {
@@ -558,7 +558,7 @@ footer .bottom_part ul li a i{
 }
 .chat_container .chat_header h2 {
   font-size: 24px;
-  color: #000000;
+  color: #ffffff;
   background-color: #ea9c00;
   padding: 10px;
   border-radius: 5px 5px 0 0px;
@@ -623,7 +623,7 @@ footer .bottom_part ul li a i{
   padding-top: 14px;
 }
 .chat_icon i {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 25px;
   background: #ea9c00;
   padding: 12px;
@@ -863,10 +863,44 @@ footer .bottom_part ul li a i{
 .spinner.active{
     display: flex;
 }
-
-
-
-
+.country_selector{
+    background-color: #ea9c00;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.country_selector select{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+}
+.single_country_list a{
+    text-decoration: none;
+}
+.single_country_list p{
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: rgb(27, 27, 27);
+}
+.country_head{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: #949494;
+}
+.flag{
+    background: url(https://i.ibb.co/4RfN5Xv/country-sprite.png) 0 0 no-repeat;
+    width: 53px;
+    height: 39px;
+    display: block;
+}
+.afgan_flag{
+    background-position: -26px -35px;
+}
 
 
 

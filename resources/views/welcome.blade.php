@@ -83,7 +83,7 @@
               <p>
                 <span>&nbsp;Mitigate risk. Prioritize traveler wellbeing. Focus cost savings</span>
               </p>
-              <button>Book free demo</button>
+              <button onclick="chatToggle('chat','chatIcon')">Book free demo</button>
             </div>
           </div>
         </div>
