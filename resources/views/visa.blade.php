@@ -151,7 +151,7 @@
             </div>
             <div class="col-md-6 my-3">
                 <div class="form-floating">
-                    <select class="form-select" id="selectCountry" name="selectCountry">
+                    <select onchange="navigateVisaPage()" class="form-select" id="selectCountry" name="selectCountry">
                         <option>Select country</option>
                         <option value="AF">Afghanistan</option>
                         <option value="AX">Aland Islands</option>
@@ -412,87 +412,11 @@
         </div>
         </div>
     </div>
-        <div class="container">
-            <div class="country_list_container">
-                <div class="single_country_list">
-                    <h2 class="country_head">A</h2>
-                    <div class="row">
-
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="single_country_list">
-                    <h2 class="country_head">B</h2>
-                    <div class="row">
-
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <a href="/afganistan" class="d-flex align-items-center">
-                                <i class="flag afgan_flag"></i>
-                                <p>Afganistan</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <!-- footer section start -->
 
-        <footer>
+        <footer class="visa_footer">
             <div class="container">
                 <div class="row bottom_part">
                     <div class="col-md-5">

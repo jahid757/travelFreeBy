@@ -187,7 +187,7 @@
                     >
                         <h5 class="heading">
                             Following is the list of documents required for
-                            Singapore Tourist visa for Indians.
+                            USA Tourist visa for Indians.
                         </h5>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
@@ -315,103 +315,55 @@
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
-                                onclick="expandVisaDoc('hotelDoc')"
+                                onclick="expandVisaDoc('panCard')"
                                 class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
                             >
                                 <div class="d-flex me-2">
                                     <div class="icon">
-                                        <i class="fa fa-file-invoice"></i>
+                                        <i class="fa fa-address-card"></i>
                                     </div>
                                     <div class="text">
-                                        <h5>HOTEL VOUCHER</h5>
+                                        <h5>PAN CARD</h5>
                                         <p>
-                                            A confirmation of room reservation
-                                            in hotel.
+                                            Permanent Account Number abbreviated as PAN is a unique 10-digit alphanumeric number issued by the Income Tax Department to Indian taxpayers
                                         </p>
                                     </div>
                                 </div>
                                 <i class="fa fa-chevron-right"></i>
                             </div>
-                            <div id="hotelDoc" class="note">
+                            <div id="panCard" class="note">
                                 <ol>
                                     <li>
-                                        It contains information such as the
-                                        guest's name, arrival date, duration of
-                                        stay and the room reserved. Others might
-                                        include the accommodation package and
-                                        the type of service booked.
+                                        It must be provided as signature proof.
                                     </li>
                                 </ol>
                             </div>
                         </div>
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
-                            <div
-                                class="d-flex align-items-center justify-content-between border-bottom"
-                            >
-                                <div class="d-flex me-2">
-                                    <div class="icon">
-                                        <i class="fa fa-briefcase"></i>
-                                    </div>
-                                    <div class="text">
-                                        <h5>VACCINATION</h5>
-                                        <p>
-                                            A valid vaccination certificate with
-                                            passport number on it.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="single_doc_item border-bottom mb-3 ms-2">
-                            <div
-                                class="d-flex align-items-center justify-content-between border-bottom"
-                            >
-                                <div class="d-flex me-2">
-                                    <div class="icon">
-                                        <i class="fa fa-building-columns"></i>
-                                    </div>
-                                    <div class="text">
-                                        <h5>BANK STATEMENT</h5>
-                                        <p>
-                                            Updated Bank Statement of the last 3
-                                            months for first-time travellers. If
-                                            the applicant has travelled to
-                                            Europe/USA/UK/Australia/New Zealand
-                                            on a valid passport, then a bank
-                                            statement is not required.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="single_doc_item mb-3 ms-2">
-                            <div
-                                onclick="expandVisaDoc('coverLetter')"
+                            <div onclick="expandVisaDoc('travelInsurance')"
                                 class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
                             >
                                 <div class="d-flex me-2">
                                     <div class="icon">
-                                        <i class="fa fa-file-lines"></i>
+                                        <i class="fa fa-user-shield"></i>
                                     </div>
                                     <div class="text">
-                                        <h5>COVER LETTER</h5>
+                                        <h5>TRAVEL INSURANCE</h5>
                                         <p>
-                                            The Cover Letter is a necessary part
-                                            of your visa application because it
-                                            is a way to introduce yourself, the
-                                            reason why you want to travel to
-                                            that specific country, as well as to
-                                            communicate with the visa officers
-                                            who are handling your application.
+                                            Travel insurance is an insurance product for covering unforeseen losses incurred while travelling, either internationally or domestically.
                                         </p>
                                     </div>
                                 </div>
-                                <i class="fa fa-chevron-right"></i>
                             </div>
-                            <div id="coverLetter" class="note">
+                            <div id="travelInsurance" class="note">
+                                <ol>
+                                    <li>
+                                        It is better if the insurance is valid for at least 2 to 10 ahead of the date of arriving to India.
+                                    </li>
+                                    <li>It must cover the whole trip.</li>
+                                    <li>Applicant’s details should be mentioned as per the passport.</li>
+                                </ol>
                                 <p>
                                     <span class="important"
                                         >Important Note:</span
@@ -441,31 +393,32 @@
                                     visa as per departure dates.
                                 </p>
                                 <p>
-                                    Singapore visas will be process within 1
+                                    USA visas will be process within 1
                                     month prior to your departure date.
                                 </p>
                                 <p>
                                     If you wish to travel another country before
-                                    your Singapore trip then immateriality
+                                    your USA trip then immateriality
                                     inform us so that we can handover your
-                                    passport on time & process your Singapore
+                                    passport on time & process your USA
                                     visa accordingly.
                                 </p>
                             </div>
                         </div>
+
+
+
+
                     </div>
 
-                    <div
-                        id="businessVisaDoc"
-                        class="default-font visa-requirement"
-                    >
+                    <div id="businessVisaDoc" class="default-font visa-requirement">
                         <h5 class="heading">
                             Following is the list of documents required for
-                            Singapore Tourist visa for Indians.
+                            USA Tourist visa for Indians.
                         </h5>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
-                                onclick="expandVisaDoc('b_passportDoc')"
+                                onclick="expandVisaDoc('passportDoc')"
                                 class="d-flex align-items-center border-bottom justify-content-between single_doc_head"
                             >
                                 <div class="d-flex me-2">
@@ -487,7 +440,7 @@
                                 </div>
                                 <i class="fa fa-chevron-right"></i>
                             </div>
-                            <div id="b_passportDoc" class="note">
+                            <div id="passportDoc" class="note">
                                 <div class="text">
                                     <h5>NOTE</h5>
                                 </div>
@@ -506,7 +459,7 @@
                         </div>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
-                                onclick="expandVisaDoc('b_photoDoc')"
+                                onclick="expandVisaDoc('photoDoc')"
                                 class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
                             >
                                 <div class="d-flex">
@@ -526,7 +479,7 @@
                                     class="fa fa-chevron-right justify-content-right"
                                 ></i>
                             </div>
-                            <div id="b_photoDoc" class="note">
+                            <div id="photoDoc" class="note">
                                 <div class="text">
                                     <h5>NOTE</h5>
                                 </div>
@@ -552,7 +505,7 @@
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
-                                onclick="expandVisaDoc('b_ticketDoc')"
+                                onclick="expandVisaDoc('ticketDoc')"
                                 class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
                             >
                                 <div class="d-flex me-2">
@@ -573,7 +526,7 @@
                                 </div>
                                 <i class="fa fa-chevron-right"></i>
                             </div>
-                            <div id="b_ticketDoc" class="note">
+                            <div id="ticketDoc" class="note">
                                 <ol>
                                     <li>
                                         It must be confirmed for the complete
@@ -589,113 +542,54 @@
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
-                                onclick="expandVisaDoc('b_hotelDoc')"
+                                onclick="expandVisaDoc('panCard')"
                                 class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
                             >
                                 <div class="d-flex me-2">
                                     <div class="icon">
-                                        <i class="fa fa-file-invoice"></i>
+                                        <i class="fa fa-address-card"></i>
                                     </div>
                                     <div class="text">
-                                        <h5>COVERING LETTER FROM COMPANY</h5>
+                                        <h5>PAN CARD</h5>
                                         <p>
-                                            A covering letter from company is
-                                            provided in the name of the employee
-                                            if they are travelling to another
-                                            country on behalf of company for
-                                            business.
+                                            Permanent Account Number abbreviated as PAN is a unique 10-digit alphanumeric number issued by the Income Tax Department to Indian taxpayers
                                         </p>
                                     </div>
                                 </div>
                                 <i class="fa fa-chevron-right"></i>
                             </div>
-                            <div id="b_hotelDoc" class="note">
+                            <div id="panCard" class="note">
                                 <ol>
                                     <li>
-                                        It should be issued on letterhead of
-                                        company with official stamp and
-                                        signature of the company.
-                                    </li>
-                                    <li>
-                                        It must be mentioning the details of the
-                                        traveller’s stay in the country.
+                                        It must be provided as signature proof.
                                     </li>
                                 </ol>
                             </div>
                         </div>
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
-                            <div
-                                onclick="expandVisaDoc('b_bankDoc')"
-                                class="d-flex align-items-center justify-content-between single_doc_head border-bottom"
-                            >
-                                <div class="d-flex me-2">
-                                    <div class="icon">
-                                        <i class="fa fa-building-columns"></i>
-                                    </div>
-                                    <div class="text">
-                                        <h5>BANK STATEMENT</h5>
-                                        <p>
-                                            Your business bank statements are
-                                            extremely important for your
-                                            application because they show
-                                            additional evidence that the
-                                            information you provided about your
-                                            company is reliable and you are a
-                                            trustworthy applicant.
-                                        </p>
-                                    </div>
-                                    <i class="fa fa-chevron-right"></i>
-                                </div>
-                            </div>
-                            <div id="b_bankDoc" class="note">
-                                <ol>
-                                    <li>
-                                        It must be indicating a balance of min.
-                                        INR 30,000/- per person.
-                                    </li>
-                                    <li>
-                                        It should have the Bank’s stamp and
-                                        signature on every page.
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-
-                        <div class="single_doc_item mb-3 ms-2">
-                            <div
-                                onclick="expandVisaDoc('b_coverLetter')"
+                            <div onclick="expandVisaDoc('travelInsurance')"
                                 class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
                             >
                                 <div class="d-flex me-2">
                                     <div class="icon">
-                                        <i class="fa fa-file-lines"></i>
+                                        <i class="fa fa-user-shield"></i>
                                     </div>
                                     <div class="text">
-                                        <h5>INVITATION LETTER FROM COMPANY</h5>
+                                        <h5>TRAVEL INSURANCE</h5>
                                         <p>
-                                            A Business Invitation Letter is a
-                                            formal way of reaching out to a
-                                            company, a group of people, or an
-                                            individual to attend an event or the
-                                            meeting you are going to host.
+                                            Travel insurance is an insurance product for covering unforeseen losses incurred while travelling, either internationally or domestically.
                                         </p>
                                     </div>
                                 </div>
-                                <i class="fa fa-chevron-right"></i>
                             </div>
-                            <div id="b_coverLetter" class="note">
+                            <div id="travelInsurance" class="note">
                                 <ol>
                                     <li>
-                                        It must mention the contact details,
-                                        motive of travel and other important
-                                        document.
+                                        It is better if the insurance is valid for at least 2 to 10 ahead of the date of arriving to India.
                                     </li>
-                                    <li>
-                                        It must contain the signature of the
-                                        officials along with designations, stamp
-                                        and name of the company.
-                                    </li>
+                                    <li>It must cover the whole trip.</li>
+                                    <li>Applicant’s details should be mentioned as per the passport.</li>
                                 </ol>
                                 <p>
                                     <span class="important"
@@ -726,27 +620,25 @@
                                     visa as per departure dates.
                                 </p>
                                 <p>
-                                    Singapore visas will be process within 1
+                                    USA visas will be process within 1
                                     month prior to your departure date.
                                 </p>
                                 <p>
                                     If you wish to travel another country before
-                                    your Singapore trip then immateriality
+                                    your USA trip then immateriality
                                     inform us so that we can handover your
-                                    passport on time & process your Singapore
+                                    passport on time & process your USA
                                     visa accordingly.
                                 </p>
                             </div>
                         </div>
+
                     </div>
 
-                    <div
-                        id="visitVisaDoc"
-                        class="default-font visa-requirement"
-                    >
+                    <div id="visitVisaDoc" class="default-font visa-requirement">
                         <h5 class="heading">
                             Following is the list of documents required for
-                            Singapore Tourist visa for Indians.
+                            USA Visit visa for Indians.
                         </h5>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
@@ -872,60 +764,31 @@
                             </div>
                         </div>
 
-                        <div class="single_doc_item border-bottom mb-3 ms-2">
-                            <div
-                                class="d-flex align-items-center justify-content-between border-bottom"
-                            >
-                                <div class="d-flex me-2">
-                                    <div class="icon">
-                                        <i class="fa fa-file-invoice"></i>
-                                    </div>
-                                    <div class="text">
-                                        <h5>COVER LETTER FROM APPLICANT</h5>
-                                        <p>
-                                            The Cover Letter is a necessary part
-                                            of your visa application because it
-                                            is a way to introduce yourself, the
-                                            reason why you want to travel to
-                                            that specific country, as well as to
-                                            communicate with the visa officers
-                                            who are handling your application.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="single_doc_item border-bottom mb-3 ms-2">
+                        <div class="single_doc_item mb-3 ms-2">
                             <div
-                                onclick="expandVisaDoc('v_bankDoc')"
                                 class="d-flex align-items-center justify-content-between border-bottom"
                             >
                                 <div class="d-flex me-2">
                                     <div class="icon">
-                                        <i class="fa fa-building-columns"></i>
+                                        <i class="fa fa-copy"></i>
                                     </div>
                                     <div class="text">
-                                        <h5>BANK STATEMENT</h5>
+                                        <h5>VISA/RESIDENT PERMITS COPY OF INVITEE</h5>
                                         <p>
-                                            You must submit 3 months of bank
-                                            statements that clearly show your
-                                            monthly salary and financial
-                                            commitments.
+                                            A resident permit or residency permit is a document or card required in some regions, allowing a foreign national to stay in a country for a particular time period.
                                         </p>
                                     </div>
                                 </div>
                                 <i class="fa fa-chevron-right"></i>
                             </div>
-                            <div id="v_bankDoc" class="note">
-                                <ol>
-                                    <li>
-                                        There must not be any large amount of
-                                        deposit other than your salary.
-                                    </li>
-                                </ol>
-                            </div>
+
                         </div>
+
+
+
+
+
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
@@ -1012,14 +875,14 @@
                                     visa as per departure dates.
                                 </p>
                                 <p>
-                                    Singapore visas will be process within 1
+                                    USA visas will be process within 1
                                     month prior to your departure date.
                                 </p>
                                 <p>
                                     If you wish to travel another country before
-                                    your Singapore trip then immateriality
+                                    your USA trip then immateriality
                                     inform us so that we can handover your
-                                    passport on time & process your Singapore
+                                    passport on time & process your USA
                                     visa accordingly.
                                 </p>
                             </div>

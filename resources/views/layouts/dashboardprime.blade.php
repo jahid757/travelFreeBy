@@ -176,7 +176,7 @@
                         <div class="user-info">
                             <div class="image"><a href="{{route('users.show', (Auth::user()->id))}}" ><img src="{{ asset('storage/profileimages/' . (Auth::user()->file)) }}" alt="Logo"></a></div>
                             <div class="detail">
-                                <a href="{{route('users.show', (Auth::user()->id))}}"><h4>{{$name}}</h4></a>
+                                {{-- <a href="{{route('users.show', (Auth::user()->id))}}"><h4>{{$name}}</h4></a> --}}
                                 <small>{{$role}}</small>
                             </div>
                             <a title="facebook" href="{{$facebook}}" target="_blank"> <i class="zmdi zmdi-facebook"></i></a>
@@ -215,12 +215,11 @@
                                 <a href="/transactions/packages"><i class="zmdi zmdi-assignment"></i><span>Packages</span></a>
                                 <a href="/transactions/packages/create" class="p-0" href="javascript:void(0);"><i class="zmdi zmdi-plus"></i></a>
                             </li>
-        
-                        </ul>
+                  </ul>
                     </li>
 
                     <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-accounts-outline"></i><span>Customers</span></a>
-                        <ul class="ml-menu">
+                                        <ul class="ml-menu">
                           <li class="d-flex align-items-center justify-content-between">
                             <a href="/customers"><i class="zmdi zmdi-assignment"></i><span>Customers</span></a>
                             <a href="/customers/create" class="p-0" href="javascript:void(0);"><i class="zmdi zmdi-plus"></i></a>
@@ -236,10 +235,9 @@
                             </li>
                         </ul>
                     </li>
-                    
-                    <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-accounts"></i><span>Agents</span></a>
+  <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-accounts"></i><span>Agents</span></a>
                         <ul class="ml-menu">
-                            <li class="d-flex justify-content-between pr-1 align-items-center"><a href="/admin/users">All Agents</a><span><i class="zmdi zmdi-plus"></i></span></li>
+                            <li class="d-flex justify-conten                                        t-between pr-1 align-items-center"><a href="/admin/users">All Agents</a><span><i class="zmdi zmdi-plus"></i></span></li>
                             <li><a href="{{route('users.show', (Auth::user()->id))}}">My Profile</a></li>
                         </ul>
                     </li>
@@ -249,11 +247,10 @@
                         </ul>
                     </li>
 
-                    
-                    <li class="header">EXTRA COMPONENTS</li>
+  <li class="header">EXTRA COMPONENTS</li>
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-swap-alt"></i><span>Events</span></a>
-                        <ul class="ml-menu">
+                        <ul clas                                        s="ml-menu">
                             <li><a href="My Calender">Today</a></li>
                             <li><a href="alerts.html">Day</a></li>
                             <li><a href="collapse.html">Week</a></li>

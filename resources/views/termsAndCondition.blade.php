@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Travel Freeby|| Terms</title>
+    <title>Travel Freeby || Terms</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -65,8 +65,8 @@
           </nav>
       </header>
         <!-- hero section end -->
-
-        <div class="container content">
+<div class="content"></div>
+        <div class="container ">
             <div class="single_desc">
                 <p class="heading">Agreement between User and EBMV LLP</p>
                 <p>This Web site is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein. Your use of this Web site constitutes your agreement to all such terms, conditions, and notices which are subject to amendment without any notice. You agree to click on the links to and familiarize yourself with the Terms of Use and other terms and guidelines found throughout this Web site and abide by them if you choose to use the sites, pages or services to which they apply</p>

@@ -164,7 +164,7 @@
                         id="visitNav"
                         onclick="renderVisaMenu('visitVisaDoc','visitNav')"
                     >
-                        Visit Visa
+                    Study Visa
                     </button>
                 </div>
 
@@ -187,7 +187,7 @@
                     >
                         <h5 class="heading">
                             Following is the list of documents required for
-                            Singapore Tourist visa for Indians.
+                            Thailand Tourist visa for Indians.
                         </h5>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
@@ -441,14 +441,14 @@
                                     visa as per departure dates.
                                 </p>
                                 <p>
-                                    Singapore visas will be process within 1
+                                    Thailand visas will be process within 1
                                     month prior to your departure date.
                                 </p>
                                 <p>
                                     If you wish to travel another country before
-                                    your Singapore trip then immateriality
+                                    your Thailand trip then immateriality
                                     inform us so that we can handover your
-                                    passport on time & process your Singapore
+                                    passport on time & process your Thailand
                                     visa accordingly.
                                 </p>
                             </div>
@@ -461,7 +461,7 @@
                     >
                         <h5 class="heading">
                             Following is the list of documents required for
-                            Singapore Tourist visa for Indians.
+                            Thailand Tourist visa for Indians.
                         </h5>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
@@ -726,14 +726,14 @@
                                     visa as per departure dates.
                                 </p>
                                 <p>
-                                    Singapore visas will be process within 1
+                                    Thailand visas will be process within 1
                                     month prior to your departure date.
                                 </p>
                                 <p>
                                     If you wish to travel another country before
-                                    your Singapore trip then immateriality
+                                    your Thailand trip then immateriality
                                     inform us so that we can handover your
-                                    passport on time & process your Singapore
+                                    passport on time & process your Thailand
                                     visa accordingly.
                                 </p>
                             </div>
@@ -746,7 +746,7 @@
                     >
                         <h5 class="heading">
                             Following is the list of documents required for
-                            Singapore Tourist visa for Indians.
+                            Thailand Tourist visa for Indians.
                         </h5>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
@@ -856,7 +856,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <i class="fa fa-chevron-right"></i>
                             </div>
                             <div id="v_ticketDoc" class="note">
                                 <ol>
@@ -872,33 +871,10 @@
                             </div>
                         </div>
 
-                        <div class="single_doc_item border-bottom mb-3 ms-2">
-                            <div
-                                class="d-flex align-items-center justify-content-between border-bottom"
-                            >
-                                <div class="d-flex me-2">
-                                    <div class="icon">
-                                        <i class="fa fa-file-invoice"></i>
-                                    </div>
-                                    <div class="text">
-                                        <h5>COVER LETTER FROM APPLICANT</h5>
-                                        <p>
-                                            The Cover Letter is a necessary part
-                                            of your visa application because it
-                                            is a way to introduce yourself, the
-                                            reason why you want to travel to
-                                            that specific country, as well as to
-                                            communicate with the visa officers
-                                            who are handling your application.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
-                                onclick="expandVisaDoc('v_bankDoc')"
                                 class="d-flex align-items-center justify-content-between border-bottom"
                             >
                                 <div class="d-flex me-2">
@@ -908,43 +884,66 @@
                                     <div class="text">
                                         <h5>BANK STATEMENT</h5>
                                         <p>
-                                            You must submit 3 months of bank
-                                            statements that clearly show your
-                                            monthly salary and financial
-                                            commitments.
+                                            Updated Bank Statement of the last 3 months for first-time travellers. If the applicant has travelled to Europe/USA/UK/Australia/New Zealand on a valid passport, then a bank statement is not required.
                                         </p>
                                     </div>
                                 </div>
-                                <i class="fa fa-chevron-right"></i>
                             </div>
-                            <div id="v_bankDoc" class="note">
-                                <ol>
-                                    <li>
-                                        There must not be any large amount of
-                                        deposit other than your salary.
-                                    </li>
-                                </ol>
+
+                        </div>
+
+                        <div class="single_doc_item border-bottom mb-3 ms-2">
+                            <div
+                                class="d-flex align-items-center justify-content-between border-bottom"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-school"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>
+                                            EDUCATIONAL DOCUMENT
+                                        </h5>
+                                        <p class="mb-0">
+                                            They are all those official documents issued by an educational institution that certify the academic background and qualification of the holder of these documents.
+
+                                        </p>
+                                        <p>It must be the highest qualification certificate provided as per the consular’s requirement.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
-                                class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
+                                class="d-flex align-items-center justify-content-between border-bottom"
                             >
                                 <div class="d-flex me-2">
                                     <div class="icon">
-                                        <i class="fa fa-share"></i>
+                                        <i class="fa fa-envelope"></i>
                                     </div>
                                     <div class="text">
-                                        <h5>
-                                            INVITATION LETTER FROM FRIEND/FAMILY
-                                        </h5>
+                                        <h5>ACCEPTANCE LETTER FOR OFFER</h5>
                                         <p>
-                                            An invitation letter from
-                                            Family/Friend is a document that
-                                            allows you travel to another country
-                                            on an invitation from your
-                                            familiarity (acquaintance).
+                                            A letter stating that you accepted the offer you have received from foreign company therby confirming your decision to join them.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single_doc_item border-bottom mb-3 ms-2">
+                            <div
+                                class="d-flex align-items-center justify-content-between border-bottom"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>REGISTRATION COPY OF INVITEE COMPANY</h5>
+                                        <p>
+                                            A registration is a proof that the company is legimate and is lawfully registered to the Government
                                         </p>
                                     </div>
                                 </div>
@@ -961,44 +960,22 @@
                                         <i class="fa fa-file-lines"></i>
                                     </div>
                                     <div class="text">
-                                        <h5>PASSPORT COPY OF INVITE</h5>
+                                        <h5>COVERING LETTER FROM APPLICANT</h5>
                                         <p>
-                                            A passport is an official travel
-                                            document issued by a government that
-                                            contains a person's identity. A
-                                            person with a passport can travel to
-                                            and from foreign countries more
-                                            easily and access consular
-                                            assistance.
+                                            The Cover Letter is a necessary part of your visa application because it is a way to introduce yourself, the reason why you want to travel to that specific country, as well as to communicate with the visa officers who are handling your application.
                                         </p>
                                     </div>
                                 </div>
                                 <i class="fa fa-chevron-right"></i>
                             </div>
                             <div id="v_coverLetter" class="note">
-                                <ol>
-                                    <li>It should be valid.</li>
-                                    <li>
-                                        It must be provide as identification
-                                        proof of invitee.
-                                    </li>
-                                </ol>
                                 <p>
                                     <span class="important"
                                         >Important Note:</span
                                     >
                                 </p>
                                 <p>
-                                    Embassy/Consulate reserves the right to ask
-                                    for additional documents or personal
-                                    appearance for an interview in special
-                                    cases. Submission of the above-mentioned
-                                    documents does not guarantee that a visa is
-                                    granted, so It's recommended to get the
-                                    professional visa consultation. Submission
-                                    of incomplete documentation or refusal to
-                                    appear for a special visa interview may
-                                    result in the rejection of visa application.
+                                    Embassy/Consulate reserves the right to ask for additional documents or personal appearance for an interview in special cases. Submission of the above-mentioned documents does not guarantee that a visa is granted, so it’s recommended to get the professional visa consultation. Submission of incomplete documentation or refusal to appear for a special visa interview may result in the rejection of visa application.
                                 </p>
                                 <p>
                                     Although the information on this website has
@@ -1012,14 +989,14 @@
                                     visa as per departure dates.
                                 </p>
                                 <p>
-                                    Singapore visas will be process within 1
+                                    Thailand visas will be process within 1
                                     month prior to your departure date.
                                 </p>
                                 <p>
                                     If you wish to travel another country before
-                                    your Singapore trip then immateriality
+                                    your Thailand trip then immateriality
                                     inform us so that we can handover your
-                                    passport on time & process your Singapore
+                                    passport on time & process your Thailand
                                     visa accordingly.
                                 </p>
                             </div>

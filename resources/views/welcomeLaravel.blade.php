@@ -32,7 +32,7 @@
                   <img src="assetsh/img/welcome_img/logo.webp" alt="" />
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                  <li onclick="menuToggle('toggle_menu')"  class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">Free Quotation </a>
+                  <li onclick="menuToggle('toggle_menu')" id="freeQuotation" class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">Free Quotation </a>
                     <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                     <ul id="toggle_menu" class="toggle_menu position-absolute">
                         <li><a href="/leadsFlightOut">flights</a></li>
@@ -41,7 +41,7 @@
                     </ul>
                     </li>
 
-                    <li onclick="menuToggle('toggle_menu_my_ques')" class="position-relative toggle_link"><a class="active d-inline-block" href="javascript:void(0)">my Quotations </a>
+                    <li onclick="menuToggle('toggle_menu_my_ques')" id="myQuotation" class="position-relative toggle_link"><a class="active d-inline-block" href="javascript:void(0)">my Quotations </a>
                         <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                         <ul id="toggle_menu_my_ques" class="toggle_menu position-absolute">
                             <li><a href="/myQuotationFlight">flights</a></li>
@@ -49,7 +49,7 @@
                             <li><a href="/myQuotationPackages">packages</a></li>
                         </ul>
                         </li>
-                    <li onclick="menuToggle('toggle_menu_bookings')" class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">my bookings </a>
+                    <li onclick="menuToggle('toggle_menu_bookings')" id="myBookings" class="position-relative toggle_link"><a class="active d-inline-block"href="javascript:void(0)">my bookings </a>
                         <button class="toggle_btn d-inline-block"><i class="fa fa-caret-down"></i></button>
                         <ul id="toggle_menu_bookings" class="toggle_menu position-absolute">
                             <li><a href="/myBookingflight">flights</a></li>
@@ -74,17 +74,22 @@
           src="assetsh/videos/bg.mp4"
         ></video>
         <!-- <video autoplay loop muted src="./assets/video/Sea - 4006.mp4"></video> -->
-        <div class="hero-content">
-          <div class="container">
-            <div class="text">
-              <h1>
-                EFFECTIVE TRAVEL AND EXPENSE MANAGEMENT FOR FAST <br />CHANGING CORPORATE TRAVEL
-              </h1>
-              <p>
-                <span>&nbsp;Mitigate risk. Prioritize traveler wellbeing. Focus cost savings</span>
-              </p>
-              <button onclick="chatToggle('chat','chatIcon')">Book free demo</button>
+        <div class="hero-content" style="height: 100%;">
+          <div class="container" style="height: 100%;">
+            <div class="d-flex align-items-center" style="height: 100%;">
+                <div class="text">
+                    <h1 class="text-left">
+                      EFFECTIVE TRAVEL AND EXPENSE MANAGEMENT FOR FAST <br />CHANGING CORPORATE TRAVEL
+                    </h1>
+                    <p>
+                      <span>&nbsp;Mitigate risk. Prioritize traveler wellbeing. Focus cost savings</span>
+                    </p>
+                    <button id="popupFormBtn" onclick="handleActiveClassToggle('popupForm')">Book free demo</button>
+                  </div>
+
+
             </div>
+
           </div>
         </div>
       </section>
@@ -202,7 +207,7 @@
               </span>
             </p>
             <p class="whatsapp mt-4">
-              <a href="https://wa.me/919999360524"
+              <a target="_blank" href="https://wa.me/919999360524"
                 ><span
                   data-ux="Element"
                   class="x-el x-el-span c1-d0 c1-d1 c1-4p c1-d2 c1-63 c1-d3 c1-d4 c1-d5 c1-d6 c1-ci c1-c"
@@ -357,6 +362,33 @@
       <div class="chat_icon">
         <i id="chatIcon" onclick="chatToggle('chat','chatIcon')" class="fa fa-comment"></i>
       </div>
+    </div>
+
+    <div id="popupForm" class="popup_form">
+        <form id="popupFormBox" action="" class="">
+            <h2>Book Free Demo</h2>
+            <div class="p-2">
+                <div class="form-group">
+                    <input type="text" class="single_form" placeholder="Name*">
+                    <input type="email" class="single_form" placeholder="Email*">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="single_form" placeholder="Phone Number">
+                    <input type="text" class="single_form" placeholder="Company Name">
+                  </div>
+                  <div class="form-group">
+                    <textarea class="message_box" placeholder="Message"></textarea>
+                  </div>
+                  {{-- <div class="form_label mb-3 d-flex align-items-center">
+                    <input type="checkbox" name="label" id="label">
+                    <label for="label">Sign up for our email list for updates, promotions, and more.</label>
+                  </div> --}}
+                  <div class="d-flex align-items-center justify-content-between">
+                    <button class="main_btn" class="submit_btn">SEND</button>
+                    <a href="javascript:void(0)" onclick="handleActiveClassToggle('popupForm')" class="cancel_btn">CANCEL</a>
+                  </div>
+            </div>
+          </form>
     </div>
 
     <script src="assetsh/js/welcome.js"></script>

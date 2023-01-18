@@ -81,7 +81,7 @@ section.hero {
   justify-content: center;
   height: 500px;
   margin-top: 77px;
-  text-align: center;
+  /* text-align: center; */
 }
 section.hero video {
   width: 100%;
@@ -100,15 +100,15 @@ section.hero video {
   background: rgb(0 0 0 / 38%);
   height: 100%;
 }
-.hero-content .text {
+/* .hero-content .text {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  /* width: 100%; */
-  /* left: auto; */
+  width: 100%;
+  left: auto;
   left: 2%;
   text-align: left;
-}
+} */
 .hero-content .text h1 {
   color: #fff;
   font-weight: 600;
@@ -703,6 +703,7 @@ footer .bottom_part ul li a i{
     background-color:#ea9c00;
     border-radius: 5px;
     /* padding: 0px 10px; */
+    margin: 0px 2px;
 }
 /* .toggle_link:hover .toggle_menu{
     top: 50px;
@@ -842,10 +843,10 @@ footer .bottom_part ul li a i{
 .single_doc_head{
     cursor: pointer;
 }
-#touristVisaDoc,#allDoc,#businessVisaDoc,#visitVisaDoc{
+#touristVisaDoc,#allDoc,#businessVisaDoc,#visitVisaDoc,#workVisaDoc{
     display: none;
 }
-#touristVisaDoc.active,#allDoc.active,#businessVisaDoc.active,#visitVisaDoc.active{
+#touristVisaDoc.active,#allDoc.active,#businessVisaDoc.active,#visitVisaDoc.active,#workVisaDoc.active{
     display:block;
 }
 
@@ -901,15 +902,128 @@ footer .bottom_part ul li a i{
 .afgan_flag{
     background-position: -26px -35px;
 }
+.popup_form.active{
+    display: block;
+}
+.popup_form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    background:rgb(189 189 189 / 70%);
+    display:none
+}
+.popup_form form{
+    width:550px;
+    left: 50%;
+    top:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: white;
+    /* padding: 10px; */
+    border-radius: 5px;
+}
+.popup_form form input{
+    border: none;
+    border-bottom: 1px solid #a4a4a4;
+    border-radius: 0;
+}
+.popup_form form .form-group {
+    display: flex;
+    justify-content: space-between;
+}
+.popup_form form .form-group  input{
+    width: 48%;
+}
+.popup_form .message_box{
+    border: none;
+    border-bottom: 1px solid #a4a4a4;
+    border-radius: 0;
+}
+.popup_form h2{
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #ea9c00;
+    padding: 10px;
+    border-radius: 5px 5px 0 0px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.popup_form .cancel_btn{
+    color: #ee7335;
+}
+li.social a i{
+    transition: .5s;
+    padding:5px 6px;
+    width:30px;
+    height:30px;
+    display:flex;
+    align-self: center;
+    border-radius: 50%;
+}
+li.social a:nth-child(1):hover i{
+    color:	#fff;
+    background-color: #4267B2;
+    padding-left: 8px;
+}
+li.social a:nth-child(2):hover i{
+    color:	#fff;
+    background-color: #00acee;
+}
+li.social a:nth-child(3):hover i{
+    color:	#fff;
+    background-color: #0072b1;
+}
+li.social a:nth-child(4):hover i{
+    color:	#fff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
 
+.email_view{
+    max-width: 776px;
+    margin: 0 auto;
+}
+.email_view .logo{
+    width: 150px;
+    /* margin: 50px auto; */
+    margin: 20px 0;
+    display:block;
+}
+.email_view h3.name{
+    font-size: 30px;
+    font-weight: 500;
+    color: #242e3c;
+    font-family: arial;
+}
+.email_view p{
+    color: #242e3c;
+    font-weight: 400;
+}
+.text_welcome{
+    margin: 5px;
+}
+.email_view span.bold{
+    color: #ea9c00;
+}
+.email_view{
+    background-color: #fff;
+    /* height: 100vh; */
+    height: 100%;
+    /* overflow-y: scroll; */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.email_view::-webkit-scrollbar {
+    display: none;
+  }
 
-
-
-
-
-
-
-
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .email_view {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 
 /* responsive css */
@@ -958,4 +1072,13 @@ footer .bottom_part ul li a i{
     z-index: 9999;
     overflow-y: scroll;
   }
+}
+
+@media (min-width: 767px){
+  .visa_footer{
+    position:absolute;
+    width:100%;
+    bottom:0px
+  }
+
 }

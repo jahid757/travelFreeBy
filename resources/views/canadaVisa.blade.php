@@ -166,6 +166,12 @@
                     >
                         Visit Visa
                     </button>
+                    <button
+                        id="workNav"
+                        onclick="renderVisaMenu('workVisaDoc','workNav')"
+                    >
+                        Work Visa
+                    </button>
                 </div>
 
                 <div class="menu_content p-2">
@@ -187,7 +193,7 @@
                     >
                         <h5 class="heading">
                             Following is the list of documents required for
-                            Singapore Tourist visa for Indians.
+                            Canada Tourist visa for Indians.
                         </h5>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
@@ -315,58 +321,28 @@
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
-                                onclick="expandVisaDoc('hotelDoc')"
-                                class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
+                                class="d-flex align-items-center justify-content-between"
                             >
                                 <div class="d-flex me-2">
                                     <div class="icon">
                                         <i class="fa fa-file-invoice"></i>
                                     </div>
                                     <div class="text">
-                                        <h5>HOTEL VOUCHER</h5>
+                                        <h5>COVER LETTER</h5>
                                         <p>
-                                            A confirmation of room reservation
-                                            in hotel.
-                                        </p>
-                                    </div>
-                                </div>
-                                <i class="fa fa-chevron-right"></i>
-                            </div>
-                            <div id="hotelDoc" class="note">
-                                <ol>
-                                    <li>
-                                        It contains information such as the
-                                        guest's name, arrival date, duration of
-                                        stay and the room reserved. Others might
-                                        include the accommodation package and
-                                        the type of service booked.
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-
-                        <div class="single_doc_item border-bottom mb-3 ms-2">
-                            <div
-                                class="d-flex align-items-center justify-content-between border-bottom"
-                            >
-                                <div class="d-flex me-2">
-                                    <div class="icon">
-                                        <i class="fa fa-briefcase"></i>
-                                    </div>
-                                    <div class="text">
-                                        <h5>VACCINATION</h5>
-                                        <p>
-                                            A valid vaccination certificate with
-                                            passport number on it.
+                                            The Cover Letter is a necessary part of your visa application because it is a way to introduce yourself, the reason why you want to travel to that specific country, as well as to communicate with the visa officers who are handling your application.
                                         </p>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
+
+
 
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
-                                class="d-flex align-items-center justify-content-between border-bottom"
+                                class="d-flex align-items-center justify-content-between"
                             >
                                 <div class="d-flex me-2">
                                     <div class="icon">
@@ -375,17 +351,55 @@
                                     <div class="text">
                                         <h5>BANK STATEMENT</h5>
                                         <p>
-                                            Updated Bank Statement of the last 3
-                                            months for first-time travellers. If
-                                            the applicant has travelled to
-                                            Europe/USA/UK/Australia/New Zealand
-                                            on a valid passport, then a bank
-                                            statement is not required.
+                                            Updated Bank Statement of the last 3 months for first-time travellers. If the applicant has travelled to Europe/USA/UK/Australia/New Zealand on a valid passport, then a bank statement is not required.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="single_doc_item border-bottom mb-3 ms-2 ">
+                            <div
+                                class="d-flex align-items-center justify-content-between"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-percent"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>INCOME TAX RETURNS</h5>
+                                        <p>
+                                            An Income tax return is a document that is record of the tax that paid to the government by the concerned tax paying citizen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single_doc_item border-bottom mb-3 ms-2 single_doc_head">
+                            <div onclick="expandVisaDoc('ITINERARY')"
+                                class="d-flex align-items-center justify-content-between border-bottom"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-globe"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>ITINERARY</h5>
+                                        <p>
+                                            Itinerary is a travel document that contains the details of travel schedule of the one who is going on the trip.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                            <div id="ITINERARY" class="note">
+                            <ol>
+                                <li>It must mention the day to day schedule, plans and program while in the country.</li>
+                            </ol>
+                        </div>
+                        </div>
+
 
                         <div class="single_doc_item mb-3 ms-2">
                             <div
@@ -394,63 +408,21 @@
                             >
                                 <div class="d-flex me-2">
                                     <div class="icon">
-                                        <i class="fa fa-file-lines"></i>
+                                        <i class="fa fa-passport"></i>
                                     </div>
                                     <div class="text">
-                                        <h5>COVER LETTER</h5>
+                                        <h5>VALID VISA COPY</h5>
                                         <p>
-                                            The Cover Letter is a necessary part
-                                            of your visa application because it
-                                            is a way to introduce yourself, the
-                                            reason why you want to travel to
-                                            that specific country, as well as to
-                                            communicate with the visa officers
-                                            who are handling your application.
+                                            Valid visa copy is a copy that is still applicable and in a different country which you are looking forward to apply for.
                                         </p>
                                     </div>
                                 </div>
                                 <i class="fa fa-chevron-right"></i>
                             </div>
                             <div id="coverLetter" class="note">
-                                <p>
-                                    <span class="important"
-                                        >Important Note:</span
-                                    >
-                                </p>
-                                <p>
-                                    Embassy/Consulate reserves the right to ask
-                                    for additional documents or personal
-                                    appearance for an interview in special
-                                    cases. Submission of the above-mentioned
-                                    documents does not guarantee that a visa is
-                                    granted, so It's recommended to get the
-                                    professional visa consultation. Submission
-                                    of incomplete documentation or refusal to
-                                    appear for a special visa interview may
-                                    result in the rejection of visa application.
-                                </p>
-                                <p>
-                                    Although the information on this website has
-                                    been prepared with utmost care. However,
-                                    regulations and requirements are subject to
-                                    change.
-                                </p>
-                                <p>
-                                    Your visa will be granted two days before
-                                    your departure date as we are processing
-                                    visa as per departure dates.
-                                </p>
-                                <p>
-                                    Singapore visas will be process within 1
-                                    month prior to your departure date.
-                                </p>
-                                <p>
-                                    If you wish to travel another country before
-                                    your Singapore trip then immateriality
-                                    inform us so that we can handover your
-                                    passport on time & process your Singapore
-                                    visa accordingly.
-                                </p>
+                                <ol>
+                                    <li>It must be verifiable and to be submitted at the time of new visa processing.</li>
+                                </ol>
                             </div>
                         </div>
                     </div>
@@ -461,7 +433,7 @@
                     >
                         <h5 class="heading">
                             Following is the list of documents required for
-                            Singapore Tourist visa for Indians.
+                            Canada Tourist visa for Indians.
                         </h5>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
@@ -661,8 +633,25 @@
                                 </ol>
                             </div>
                         </div>
+                        <div class="single_doc_item border-bottom mb-3 ms-2 ">
+                            <div
+                                class="d-flex align-items-center justify-content-between"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-percent"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>INCOME TAX RETURNS</h5>
+                                        <p>
+                                            An Income tax return is a document that is record of the tax that paid to the government by the concerned tax paying citizen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                        <div class="single_doc_item mb-3 ms-2">
+                        <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
                                 onclick="expandVisaDoc('b_coverLetter')"
                                 class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
@@ -697,6 +686,63 @@
                                         and name of the company.
                                     </li>
                                 </ol>
+
+                            </div>
+                        </div>
+
+
+                        <div class="single_doc_item mb-3 ms-2 border-bottom">
+                            <div
+                                onclick="expandVisaDoc('b_companyReg')"
+                                class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>COMPANY REGISTRATION</h5>
+                                        <p>
+                                            A company register is a register of organizations in the jurisdiction they operate under. A statistical business register has a different purpose than a company register. It shows whether the company is certified or not.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                            <div id="b_companyReg" class="note">
+                                <ol>
+                                    <li>
+                                        It must be issued in English language.
+                                    </li>
+                                    <li>
+                                        It must be provided as proof that the company is registered and legitimate.
+                                    </li>
+                                </ol>
+
+                            </div>
+                        </div>
+                        <div class="single_doc_item mb-3 ms-2">
+                            <div
+                                onclick="expandVisaDoc('b_visaCopy')"
+                                class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-passport"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>VALID VISA COPY</h5>
+                                        <p>
+                                            Valid visa copy is a copy that is still applicable and in a different country which you are looking forward to apply for.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                            <div id="b_visaCopy" class="note">
+                                <ol>
+                                    <li>It must be verifiable and to be submitted at the time of new visa processing.</li>
+                                </ol>
                                 <p>
                                     <span class="important"
                                         >Important Note:</span
@@ -726,18 +772,20 @@
                                     visa as per departure dates.
                                 </p>
                                 <p>
-                                    Singapore visas will be process within 1
+                                    Thailand visas will be process within 1
                                     month prior to your departure date.
                                 </p>
                                 <p>
                                     If you wish to travel another country before
-                                    your Singapore trip then immateriality
+                                    your Thailand trip then immateriality
                                     inform us so that we can handover your
-                                    passport on time & process your Singapore
+                                    passport on time & process your Thailand
                                     visa accordingly.
                                 </p>
                             </div>
                         </div>
+
+
                     </div>
 
                     <div
@@ -746,7 +794,7 @@
                     >
                         <h5 class="heading">
                             Following is the list of documents required for
-                            Singapore Tourist visa for Indians.
+                            Canada Tourist visa for Indians.
                         </h5>
                         <div class="single_doc_item border-bottom mb-3 ms-2">
                             <div
@@ -951,7 +999,68 @@
                             </div>
                         </div>
 
+                        <div class="single_doc_item border-bottom mb-3 ms-2 ">
+                            <div
+                                class="d-flex align-items-center justify-content-between"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-percent"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>INCOME TAX RETURNS</h5>
+                                        <p>
+                                            An Income tax return is a document that is record of the tax that paid to the government by the concerned tax paying citizen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_doc_item border-bottom mb-3 ms-2 single_doc_head">
+                            <div onclick="expandVisaDoc('V_ITINERARY')"
+                                class="d-flex align-items-center justify-content-between border-bottom"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-globe"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>ITINERARY</h5>
+                                        <p>
+                                            Itinerary is a travel document that contains the details of travel schedule of the one who is going on the trip.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                            <div id="V_ITINERARY" class="note">
+                            <ol>
+                                <li>It must mention the day to day schedule, plans and program while in the country.</li>
+                            </ol>
+                        </div>
+                        </div>
+
                         <div class="single_doc_item mb-3 ms-2">
+                            <div
+                                class="d-flex align-items-center justify-content-between border-bottom"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-copy"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>VISA/RESIDENT PERMITS COPY OF INVITEE</h5>
+                                        <p>
+                                            A resident permit or residency permit is a document or card required in some regions, allowing a foreign national to stay in a country for a particular time period.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="single_doc_item mb-3 ms-2 border-bottom">
                             <div
                                 onclick="expandVisaDoc('v_coverLetter')"
                                 class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
@@ -983,6 +1092,33 @@
                                         proof of invitee.
                                     </li>
                                 </ol>
+
+                            </div>
+                        </div>
+
+                        <div class="single_doc_item mb-3 ms-2">
+                            <div
+                                onclick="expandVisaDoc('w_coverLetter')"
+                                class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-passport"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>VALID VISA COPY</h5>
+                                        <p>
+                                            Valid visa copy is a copy that is still applicable and in a different country which you are looking forward to apply for.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                            <div id="w_coverLetter" class="note">
+                                <ol>
+                                    <li>It must be verifiable and to be submitted at the time of new visa processing.</li>
+                                </ol>
+
                                 <p>
                                     <span class="important"
                                         >Important Note:</span
@@ -1012,18 +1148,214 @@
                                     visa as per departure dates.
                                 </p>
                                 <p>
-                                    Singapore visas will be process within 1
+                                    Thailand visas will be process within 1
                                     month prior to your departure date.
                                 </p>
                                 <p>
                                     If you wish to travel another country before
-                                    your Singapore trip then immateriality
+                                    your Thailand trip then immateriality
                                     inform us so that we can handover your
-                                    passport on time & process your Singapore
+                                    passport on time & process your Thailand
                                     visa accordingly.
                                 </p>
                             </div>
                         </div>
+
+                    </div>
+                    <div id="workVisaDoc" class="default-font visa-requirement">
+                        <h5 class="heading">
+                            Following is the list of documents required for
+                            Canada Work visa for Indians.
+                        </h5>
+                        <div class="single_doc_item border-bottom mb-3 ms-2">
+                            <div
+                                onclick="expandVisaDoc('w_passportDoc')"
+                                class="d-flex align-items-center border-bottom justify-content-between single_doc_head"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-passport"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>Passport</h5>
+                                        <p>
+                                            A passport is an official travel
+                                            document issued by a government that
+                                            contains a person's identity. A
+                                            person with a passport can travel to
+                                            and from foreign countries more
+                                            easily and access consular
+                                            assistance.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                            <div id="w_passportDoc" class="note">
+                                <div class="text">
+                                    <h5>NOTE</h5>
+                                </div>
+                                <ol type="i">
+                                    <li>It must be original and genuine.</li>
+                                    <li>
+                                        It must not be torn, split, ripped or
+                                        damaged.
+                                    </li>
+                                    <li>
+                                        It should have minimum two blank pages
+                                        for Visa stamp.
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="single_doc_item border-bottom mb-3 ms-2">
+                            <div
+                                onclick="expandVisaDoc('w_photoDoc')"
+                                class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
+                            >
+                                <div class="d-flex">
+                                    <div class="icon me-2">
+                                        <i class="fa fa-camera"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>PHOTO</h5>
+                                        <p>
+                                            The photo is provided to the
+                                            authority so that you can be
+                                            identified based on the same.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i
+                                    class="fa fa-chevron-right justify-content-right"
+                                ></i>
+                            </div>
+                            <div id="w_photoDoc" class="note">
+                                <div class="text">
+                                    <h5>NOTE</h5>
+                                </div>
+                                <ol type="i">
+                                    <li>Two matt-finished photographs.</li>
+                                    <li>
+                                        Coloured photographs with white
+                                        background.
+                                    </li>
+                                    <li>It should be 35mm x 45mm in size.</li>
+                                    <li>
+                                        The photograph should not be older than
+                                        3 months.
+                                    </li>
+                                    <li>The ears must be visible clearly.</li>
+                                    <li>
+                                        Any kind of glasses must not be worn in
+                                        the photograph.
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="single_doc_item border-bottom mb-3 ms-2">
+                            <div
+                                onclick="expandVisaDoc('w_ticketDoc')"
+                                class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-ticket"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>AIR TICKET</h5>
+                                        <p>
+                                            An airline ticket is a document or
+                                            electronic record, issued by an
+                                            airline or a travel agency that
+                                            confirms that an individual is
+                                            entitled to a seat on a flight on an
+                                            aircraft.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                            <div id="w_ticketDoc" class="note">
+                                <ol>
+                                    <li>
+                                        It must be confirmed for the complete
+                                        round trip.
+                                    </li>
+                                </ol>
+                                <p class="important">
+                                    An Air ticket shows your itinerary of travel
+                                    and confirms your return to native country.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single_doc_item mb-3 ms-2">
+                            <div
+                                onclick="expandVisaDoc('w_coverLetter')"
+                                class="d-flex align-items-center justify-content-between border-bottom single_doc_head"
+                            >
+                                <div class="d-flex me-2">
+                                    <div class="icon">
+                                        <i class="fa fa-passport"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h5>VALID VISA COPY</h5>
+                                        <p>
+                                            Valid visa copy is a copy that is still applicable and in a different country which you are looking forward to apply for.
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                            <div id="w_coverLetter" class="note">
+                                <ol>
+                                    <li>It must be verifiable and to be submitted at the time of new visa processing.</li>
+                                </ol>
+
+                                <p>
+                                    <span class="important"
+                                        >Important Note:</span
+                                    >
+                                </p>
+                                <p>
+                                    Embassy/Consulate reserves the right to ask
+                                    for additional documents or personal
+                                    appearance for an interview in special
+                                    cases. Submission of the above-mentioned
+                                    documents does not guarantee that a visa is
+                                    granted, so It's recommended to get the
+                                    professional visa consultation. Submission
+                                    of incomplete documentation or refusal to
+                                    appear for a special visa interview may
+                                    result in the rejection of visa application.
+                                </p>
+                                <p>
+                                    Although the information on this website has
+                                    been prepared with utmost care. However,
+                                    regulations and requirements are subject to
+                                    change.
+                                </p>
+                                <p>
+                                    Your visa will be granted two days before
+                                    your departure date as we are processing
+                                    visa as per departure dates.
+                                </p>
+                                <p>
+                                    Thailand visas will be process within 1
+                                    month prior to your departure date.
+                                </p>
+                                <p>
+                                    If you wish to travel another country before
+                                    your Thailand trip then immateriality
+                                    inform us so that we can handover your
+                                    passport on time & process your Thailand
+                                    visa accordingly.
+                                </p>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>

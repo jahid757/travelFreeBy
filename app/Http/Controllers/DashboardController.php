@@ -31,8 +31,8 @@ class DashboardController extends Controller
         $linkedin=Auth::user()->linkedin;
         $image=Auth::user()->file;
         return view('dashboard', compact('image', 'compn', 'name', 'role', 'facebook', 'twitter', 'insta', 'linkedin'));
-        
-    
+
+
     }
 
 }

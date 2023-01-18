@@ -13,9 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+
+// render react router
+// Route::get('/', function () {
+//     return view('frontendReact');
+// })->where('any', '.*');
+
+// Route::get('/t/{any?}', function(){
+//     return view('frontendReact');
+// })->where('any', '.*');
+
+// render laravel route
+Route::get('/', function(){
+    return view('welcomeLaravel');
 });
+
+
 
 Route::get('/terms', function () {
     return view('termsAndCondition');
